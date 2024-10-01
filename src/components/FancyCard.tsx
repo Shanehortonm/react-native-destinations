@@ -61,8 +61,6 @@ const styles = StyleSheet.create({
     height: 180,
     marginBottom: 8,
     borderTopRightRadius: 70,
-    borderWidth: 2, // Added border for debugging
-    borderColor: 'red', // Added border color for debugging
   },
   cardBody: {
     flex: 1,

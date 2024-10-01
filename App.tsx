@@ -3,6 +3,7 @@ import React from 'react';
 import FlatCards from './src/components/FlatCards';
 import ElevatedCards from './src/components/ElevatedCards';
 import FancyCard from './src/components/FancyCard';
+import ActionCard from './src/components/ActionCard';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           cardDescription="Get out and explore the unknown, live life to the fullest"
           cardFooter="20 miles away"
         />
+        <ActionCard />
       </ScrollView>
     </SafeAreaView>
   );
